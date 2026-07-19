@@ -7,3 +7,4 @@ missing alt text, an unlabeled input, a nameless button, low-contrast text, a
 nameless link — so PR scans have deterministic violations to report.
 
 Test change to trigger the A11yCI check.
+Scan trigger 1784493048
