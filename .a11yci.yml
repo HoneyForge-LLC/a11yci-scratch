@@ -1,4 +1,3 @@
-# A11yCI scan configuration — https://github.com/HoneyForge-LLC/a11yci
 urls:
-  - https://honeyforge-llc.github.io/a11yci-scratch/
+  - https://does-not-exist-a11yci-scratch.invalid/
 wcag_level: AA
