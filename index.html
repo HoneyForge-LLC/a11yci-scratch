@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A11yCI scratch — intentionally broken</title>
+  </head>
+  <body>
+    <main>
+      <h1>A11yCI test bed</h1>
+      <p>This page contains deliberate WCAG failures so scans have something to find.</p>
+
+      <!-- critical: image-alt -->
+      <img src="https://placehold.co/200x100" />
+
+      <!-- critical: label -->
+      <input type="text" placeholder="unlabeled input" />
+
+      <!-- critical: button-name -->
+      <button></button>
+
+      <!-- serious: color-contrast -->
+      <p style="color: #999999; background: #ffffff">
+        Low contrast text that fails WCAG AA contrast requirements.
+      </p>
+
+      <!-- serious: link-name -->
+      <a href="https://example.com"><span aria-hidden="true">→</span></a>
+    </main>
+  </body>
+</html>

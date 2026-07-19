@@ -1,0 +1,4 @@
+# A11yCI scan configuration — https://github.com/HoneyForge-LLC/a11yci
+urls:
+  - https://honeyforge-llc.github.io/a11yci-scratch/
+wcag_level: AA
